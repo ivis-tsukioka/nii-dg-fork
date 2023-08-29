@@ -1,0 +1,28 @@
+MySchema:
+  description: A test schema.
+  props:
+    '@id':
+      expected_type: str
+      required: Required.
+      description: MUST be either a URI Path relative to the RO-Crate root (as stated in the identifier property of RootDataEntity) or an absolute URI. MUST end with `/`. This indicates the path to the directory.
+      example: config
+    name:
+      expected_type: str
+      required: Required.
+      description: Denotes the directory name.
+      example: config
+    url:
+      expected_type: str
+      required: Optional.
+      description: MUST be a direct URL link to the directory.
+      example: https://github.com/username/repository/directory
+    message:
+      expected_type: str
+      required: Optional.
+      description: MUST be a string.
+      example: this is a test message.
+    dataId:
+      expected_type: int
+      required: Required.
+      description: ID of DATA. Must more than 10
+      example: 1234
