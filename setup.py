@@ -17,7 +17,7 @@ LONG_DESCRIPTION: Path = BASE_DIR.joinpath("README.md")
 
 setup(
     name="nii_dg",
-    version=GH_REF,
+    version="1.0.4",
     description="NII Data Governance",
     long_description=LONG_DESCRIPTION.open(mode="r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
