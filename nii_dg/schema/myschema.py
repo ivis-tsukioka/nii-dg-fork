@@ -114,7 +114,7 @@ class MySchema(DataEntity):
                 error.add("message", "message has some prohibited words.")
         
         data_id = self.get("dataId")
-        if data is not None:
+        if data_id is not None:
             if not is_more_than_ten(data_id):
                 error.add("dataId", "dataId is low value < 10")
 
