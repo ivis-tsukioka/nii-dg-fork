@@ -58,7 +58,7 @@ def contain_prohibited_words(value: str) -> bool:
     return False
 
 
-def is_more_than_ten(value: int) -> bool
+def is_more_than_ten(value: int) -> bool:
     if value >= 10:
         return True
     else:
