@@ -22,7 +22,7 @@ setup(
     long_description=LONG_DESCRIPTION.open(mode="r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="NII",
-    url="https://github.com/NII-DG/nii-dg",
+    url="https://github.com/ivis-tsukioka/nii-dg-fork.git",
     license="Apache2.0",
     python_requires=">=3.8",
     platforms="any",

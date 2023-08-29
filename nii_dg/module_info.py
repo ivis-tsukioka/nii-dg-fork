@@ -5,10 +5,10 @@
 Configuration parameters for the nii_dg package.
 """
 
-GH_REPO: str = "NII-DG/nii-dg"
+GH_REPO: str = "ivis-tsukioka/nii-dg-fork"
 """str: The GitHub repository name for the nii_dg package."""
 
-GH_REF: str = "1.0.3"
+GH_REF: str = "demo-myschema-01"
 """str: The GitHub reference (tag or branch) for the nii_dg package."""
 
 
